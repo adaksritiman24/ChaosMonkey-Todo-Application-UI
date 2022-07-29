@@ -1,14 +1,19 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, useTheme } from '@mui/material';
 import { grey } from '@mui/material/colors';
 import React from 'react'
 import Todoutils from './Todoutils';
 
 const Header=()=> {
+    const theme = useTheme();
+
+    const desktopView = theme.breakpoints.up("lg");
+    const tabletView = theme.breakpoints.up("md");
+    const mobileView = theme.breakpoints.up("xs");
+
   return (
     <Box
         sx={{
-            border : `1px solid ${grey[400]}`,
-            background: grey[100],
+            background: grey[200],
             borderRadius : "4px",
             display : "flex",
             justifyContent : "space-between",
@@ -17,7 +22,15 @@ const Header=()=> {
     >
         <Typography
             sx={{
-                fontSize: "46px",
+                [desktopView] : {
+                    fontSize : "46px",
+                },
+                [tabletView] : {
+                    fontSize : "36px",
+                },
+                [mobileView] : {
+                    fontSize : "26px",
+                },
                 fontFamily : "arial",
                 boxSizing : "fit-content",
                 m : "0",

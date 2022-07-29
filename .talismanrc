@@ -8,7 +8,7 @@ fileignoreconfig:
 - filename: coverage/lcov-report/sorter.js
   checksum: 81c7e389a85cac433c864b829ebe58568493aa961d32705fbf49c14402db62b9
 - filename: dist/bundle.js
-  checksum: e64b457a6cf651a4d1bc67e986c485323cca92ffcf3dfd6e5570da3f6c0ba977
+  checksum: 34f0bc26895644bcbe814a088bc95425b7a466204e1445f5d587c161910e1830
 - filename: package-lock.json
   checksum: 6abebc26aa5d248d7c0a301ca6c7456edec70486e6154f1a5e010afb1b47498e
 version: "1.0"
