@@ -1,6 +1,6 @@
 import { Box, Button, Typography, useTheme } from '@mui/material'
 import React, { useContext } from 'react'
-import AddIcon from '@mui/icons-material/Add';
+import ListAltIcon from '@mui/icons-material/ListAlt';
 import CreateModal from './CreateModal';
 import { ACTIONS } from '../constants/actions'
 import TodoContext from '../contexts/TodoContext'
@@ -37,7 +37,11 @@ const Todoutils =()=> {
             }}
             
         >
-            <AddIcon/>
+            <ListAltIcon
+                sx={{
+                    marginRight : 1
+                }}
+            />
             <Typography
                 sx = {{
                     [desktopView] : {
