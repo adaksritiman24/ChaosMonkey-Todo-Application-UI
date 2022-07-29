@@ -1,4 +1,5 @@
 import { Box, ToggleButtonGroup, ToggleButton, useTheme } from '@mui/material'
+import { grey } from '@mui/material/colors'
 
 import React, { useContext } from 'react'
 import { ACTIONS } from '../constants/actions'
@@ -32,6 +33,7 @@ const Body=()=> {
         <Box>
             <ToggleButtonGroup value={appState.scope} exclusive onChange={handleScopeChange} color="secondary"
                 sx = {{
+                    background: grey[100],
                     "& button" : {
                         textTransform : "none",
 
