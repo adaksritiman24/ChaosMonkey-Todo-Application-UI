@@ -13,7 +13,10 @@ import {
 } from "@mui/material";
 import { green, grey } from "@mui/material/colors";
 import { Box } from "@mui/system";
-import React from "react";
+import React,{useContext} from "react";
+import { ACTIONS } from "../constants/actions";
+import TodoContext from "../contexts/TodoContext";
+import updateTodo from "../utils/updateTodo";
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
   height: "250px",
@@ -28,9 +31,27 @@ const buttonStyles = {
 
 function Todo({todoDetails}) {
 
+  const {appState, dispatch} = useContext(TodoContext);
+
+  const setTodoStatus = async(completed)=> {
+    const updatedTodo = {...todoDetails, completed};
+    const updatedTodoResponse = await updateTodo(updatedTodo);
+
+    const updatedTodos = appState.todos.map((todo)=>{
+      if(todo.id === updatedTodoResponse.id)
+        return {...todo, completed: updatedTodoResponse.completed};
+      return todo;
+    });
+
+    dispatch({
+      type : ACTIONS.SET_TODOS,
+      payload : updatedTodos
+    })
+  }
+
 
   return (
-    <Grid item md={4} sm={6} xs={12}>
+    <Grid item lg={4} sm={6} xs={12}>
       <StyledPaper elevation={2}>
         <Card
           sx={{
@@ -81,8 +102,21 @@ function Todo({todoDetails}) {
             }}
           >
             <Stack spacing={1} direction="row">
-              <Button color="success" variant={todoDetails.completed===1? "contained" : "outlined"} sx={buttonStyles}>Completed</Button>
-              <Button color="error" variant={todoDetails.completed===0? "contained" : "outlined"} sx={buttonStyles}>Incomplete</Button>
+              <Button 
+              color="success" 
+              variant={todoDetails.completed===1? "contained" : "outlined"} 
+              sx={buttonStyles} 
+              onClick={()=>setTodoStatus(1)}>
+                Completed
+              </Button>
+              <Button 
+              color="error" 
+              variant={todoDetails.completed===0? 
+              "contained" : "outlined"} 
+              sx={buttonStyles}  
+              onClick={()=>setTodoStatus(0)}>
+                Incomplete
+              </Button>
             </Stack>
             <Box>
               <IconButton>

@@ -26,7 +26,16 @@ const Body=()=> {
 
   return (
     <Box
-        p={1}
+        sx={{
+            [desktopView] : {
+                padding : 4,
+                pt : 1,
+            },
+            [mobileView] : {
+                padding : 1,
+                pt : 1,
+            },
+        }}
     >
         <Box>
             <ToggleButtonGroup value={appState.scope} exclusive onChange={handleScopeChange} color="secondary"

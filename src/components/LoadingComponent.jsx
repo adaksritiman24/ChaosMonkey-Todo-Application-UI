@@ -5,7 +5,7 @@ import React from 'react'
 
 const LoadingItem = ()=>
     (
-        <Grid item md={4} sm={6} xs={12}>
+        <Grid item lg={4} sm={6} xs={12}>
             <Box border={1} borderColor={grey[100]}
                 sx={{
                     height : "250px"

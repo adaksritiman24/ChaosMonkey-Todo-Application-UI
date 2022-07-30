@@ -1,5 +1,4 @@
 import { Box, Typography, useTheme } from '@mui/material';
-import { purple } from '@mui/material/colors';
 import React from 'react'
 import Todoutils from './Todoutils';
 
@@ -13,7 +12,8 @@ const Header=()=> {
   return (
     <Box
         sx={{
-            backgroundColor: purple[50],
+            backgroundColor: '#3d5afe',
+            color: 'white',
             display : "flex",
             justifyContent : "space-between",
             position : "sticky",
@@ -34,7 +34,7 @@ const Header=()=> {
                 [mobileView] : {
                     fontSize : "26px",
                 },
-                fontFamily : "arial",
+                fontFamily : "Helvetica Neue",
                 boxSizing : "fit-content",
                 m : "0",
                 p : "0",

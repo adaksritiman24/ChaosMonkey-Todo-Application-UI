@@ -4,16 +4,16 @@ exports[`Testing of App component Should match snapshot 1`] = `
 <body>
   <div>
     <div
-      class="MuiGrid-root css-1yxbx1a-MuiGrid-root"
+      class="MuiGrid-root css-1gkooyx-MuiGrid-root"
     >
       <div
         class="css-1p5q5e5-MuiStack-root"
       >
         <div
-          class="MuiBox-root css-19we8yd"
+          class="MuiBox-root css-1rxdjlo"
         >
           <h1
-            class="MuiTypography-root MuiTypography-body1 css-cbl65a-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-67bd63-MuiTypography-root"
           >
             Todo Application
           </h1>
@@ -49,7 +49,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
           </div>
         </div>
         <div
-          class="MuiBox-root css-0"
+          class="MuiBox-root css-1spr8f0"
         >
           <div
             class="MuiBox-root css-0"
@@ -103,7 +103,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                 class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
@@ -135,7 +135,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
@@ -167,7 +167,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
@@ -199,7 +199,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
@@ -231,7 +231,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
@@ -263,7 +263,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"

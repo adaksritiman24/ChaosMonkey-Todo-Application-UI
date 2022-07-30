@@ -46,9 +46,9 @@ const App = ()=> {
                 sx = {{
                     margin : 0,
                     padding : 0,
-                        [desktopView] : { margin : "0rem 15rem"},
+                        [desktopView] : { margin : "0rem 8rem"},
                         [tabletView] : { margin : "0rem 3.5rem"},
-                        [mobileView] : { margin : "0rem 1rem"},
+                        [mobileView] : { margin : "0rem 0rem"},
                 }}
             >
                 <Stack spacing={2}>
