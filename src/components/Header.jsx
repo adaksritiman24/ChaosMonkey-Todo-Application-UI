@@ -1,5 +1,5 @@
 import { Box, Typography, useTheme } from '@mui/material';
-import { grey } from '@mui/material/colors';
+import { purple } from '@mui/material/colors';
 import React from 'react'
 import Todoutils from './Todoutils';
 
@@ -13,10 +13,13 @@ const Header=()=> {
   return (
     <Box
         sx={{
-            background: grey[200],
-            borderRadius : "4px",
+            backgroundColor: purple[50],
             display : "flex",
             justifyContent : "space-between",
+            position : "sticky",
+            top: "0px",
+            zIndex : '1000',
+            boxShadow: "0px 1px 3px 0px gray",
         }}
         p = {2}
     >

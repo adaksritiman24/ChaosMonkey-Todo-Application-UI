@@ -1,7 +1,9 @@
 import { Box, Button, FormControl, Modal, Paper, Stack, styled, TextareaAutosize, TextField, Typography, useTheme } from '@mui/material'
 import { grey } from '@mui/material/colors'
+import axios from 'axios'
 import React, { useContext } from 'react'
 import { ACTIONS } from '../constants/actions'
+import { baseURI } from '../constants/constants'
 import TodoContext from '../contexts/TodoContext'
 
 const StyledTextField = styled(TextField)({
@@ -25,10 +27,36 @@ const CreateModal=()=> {
         })
     }
 
-    const handleSubmit = (e)=> {
+    const addDataToTodos = (todo)=> {
+        if(todo === undefined) return;
+        dispatch({
+            type : ACTIONS.SET_TODOS,
+            payload: [...appState.todos, todo]
+        })
+    }
+
+    const handleSubmit = async (e)=> {
         e.preventDefault();
         const {title, description} = e.target; 
-        console.log(title.value, description.value);
+        const cleanedTitle = title.value.trim();
+        const cleanedBody = description.value.trim();
+
+        const newTodoData = JSON.stringify({
+            "title": cleanedTitle,
+            "body": cleanedBody,
+            "completed": 0
+        });
+
+        const config = {
+            method: 'post',
+            url: baseURI+'/todo',
+            headers: { 
+              'Content-Type': 'application/json'
+            },
+            data : newTodoData,
+        };
+        const {data} = await axios(config);
+        addDataToTodos(data);
 
         handleModalClose();
     }
@@ -81,7 +109,7 @@ const CreateModal=()=> {
                         />
                     </FormControl>
 
-                    <Button type='submit' variant='contained' color='secondary'>
+                    <Button type='submit' variant='contained' color='secondary' size='large'>
                         Submit
                     </Button>
                 </Stack>

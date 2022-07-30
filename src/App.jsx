@@ -44,9 +44,11 @@ const App = ()=> {
         <TodoContext.Provider value={todoContextValue}>
             <Grid
                 sx = {{
-                        [desktopView] : { margin : "5rem 15rem"},
-                        [tabletView] : { margin : "2rem 3.5rem"},
-                        [mobileView] : { margin : "1rem 1rem"},
+                    margin : 0,
+                    padding : 0,
+                        [desktopView] : { margin : "0rem 15rem"},
+                        [tabletView] : { margin : "0rem 3.5rem"},
+                        [mobileView] : { margin : "0rem 1rem"},
                 }}
             >
                 <Stack spacing={2}>
