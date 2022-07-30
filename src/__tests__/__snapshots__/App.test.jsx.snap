@@ -55,7 +55,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
             class="MuiBox-root css-0"
           >
             <div
-              class="MuiToggleButtonGroup-root css-7uwl98-MuiToggleButtonGroup-root"
+              class="MuiToggleButtonGroup-root css-11xnzgd-MuiToggleButtonGroup-root"
               role="group"
             >
               <button
@@ -106,24 +106,30 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
                 >
                   <div
-                    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-12wnoo3-MuiPaper-root"
+                    class="MuiBox-root css-1tesdz0"
                   >
                     <div
-                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-zwt9xa-MuiPaper-root-MuiCard-root"
+                      class="css-1nva18r-MuiStack-root"
                     >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="width: 80%; height: 40px;"
+                      />
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="height: 95px;"
+                      />
                       <div
-                        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                        class="css-1y2jz8o-MuiStack-root"
                       >
-                        <div
-                          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
-                        >
-                          Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo
-                        </div>
-                        <p
-                          class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
-                        >
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at.
-                        </p>
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
                       </div>
                     </div>
                   </div>
@@ -132,24 +138,30 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
                 >
                   <div
-                    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-12wnoo3-MuiPaper-root"
+                    class="MuiBox-root css-1tesdz0"
                   >
                     <div
-                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-zwt9xa-MuiPaper-root-MuiCard-root"
+                      class="css-1nva18r-MuiStack-root"
                     >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="width: 80%; height: 40px;"
+                      />
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="height: 95px;"
+                      />
                       <div
-                        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                        class="css-1y2jz8o-MuiStack-root"
                       >
-                        <div
-                          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
-                        >
-                          Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo
-                        </div>
-                        <p
-                          class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
-                        >
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at.
-                        </p>
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
                       </div>
                     </div>
                   </div>
@@ -158,24 +170,30 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
                 >
                   <div
-                    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-12wnoo3-MuiPaper-root"
+                    class="MuiBox-root css-1tesdz0"
                   >
                     <div
-                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-zwt9xa-MuiPaper-root-MuiCard-root"
+                      class="css-1nva18r-MuiStack-root"
                     >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="width: 80%; height: 40px;"
+                      />
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="height: 95px;"
+                      />
                       <div
-                        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                        class="css-1y2jz8o-MuiStack-root"
                       >
-                        <div
-                          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
-                        >
-                          Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo
-                        </div>
-                        <p
-                          class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
-                        >
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at.
-                        </p>
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
                       </div>
                     </div>
                   </div>
@@ -184,24 +202,30 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
                 >
                   <div
-                    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-12wnoo3-MuiPaper-root"
+                    class="MuiBox-root css-1tesdz0"
                   >
                     <div
-                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-zwt9xa-MuiPaper-root-MuiCard-root"
+                      class="css-1nva18r-MuiStack-root"
                     >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="width: 80%; height: 40px;"
+                      />
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="height: 95px;"
+                      />
                       <div
-                        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                        class="css-1y2jz8o-MuiStack-root"
                       >
-                        <div
-                          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
-                        >
-                          Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo
-                        </div>
-                        <p
-                          class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
-                        >
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at.
-                        </p>
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
                       </div>
                     </div>
                   </div>
@@ -210,24 +234,30 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
                 >
                   <div
-                    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-12wnoo3-MuiPaper-root"
+                    class="MuiBox-root css-1tesdz0"
                   >
                     <div
-                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-zwt9xa-MuiPaper-root-MuiCard-root"
+                      class="css-1nva18r-MuiStack-root"
                     >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="width: 80%; height: 40px;"
+                      />
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="height: 95px;"
+                      />
                       <div
-                        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                        class="css-1y2jz8o-MuiStack-root"
                       >
-                        <div
-                          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
-                        >
-                          Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo
-                        </div>
-                        <p
-                          class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
-                        >
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at.
-                        </p>
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
                       </div>
                     </div>
                   </div>
@@ -236,50 +266,30 @@ exports[`Testing of App component Should match snapshot 1`] = `
                   class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
                 >
                   <div
-                    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-12wnoo3-MuiPaper-root"
+                    class="MuiBox-root css-1tesdz0"
                   >
                     <div
-                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-zwt9xa-MuiPaper-root-MuiCard-root"
+                      class="css-1nva18r-MuiStack-root"
                     >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="width: 80%; height: 40px;"
+                      />
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="height: 95px;"
+                      />
                       <div
-                        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                        class="css-1y2jz8o-MuiStack-root"
                       >
-                        <div
-                          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
-                        >
-                          Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo
-                        </div>
-                        <p
-                          class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
-                        >
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-11l5t4l-MuiGrid-root"
-                >
-                  <div
-                    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-12wnoo3-MuiPaper-root"
-                  >
-                    <div
-                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-zwt9xa-MuiPaper-root-MuiCard-root"
-                    >
-                      <div
-                        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                      >
-                        <div
-                          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
-                        >
-                          Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo Sample Todo
-                        </div>
-                        <p
-                          class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
-                        >
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at.
-                        </p>
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
                       </div>
                     </div>
                   </div>

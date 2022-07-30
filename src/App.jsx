@@ -22,16 +22,21 @@ const App = ()=> {
     const mobileView = theme.breakpoints.up("xs");
     
     useEffect(() => {
-
-        const fetchTodoData = async()=>{
-            console.log("Fetching todos from database")
-            const response = await axios.get(baseURI+"/todo");
-            dispatch({
-                type : ACTIONS.SET_TODOS,
-                payload : response.data ? response.data : [],
-            })
-        }
-        fetchTodoData();
+        setTimeout(() => {
+            const fetchTodoData = async()=>{
+                console.log("Fetching todos from database")
+                const response = await axios.get(baseURI+"/todo");
+                dispatch({
+                    type : ACTIONS.SET_TODOS,
+                    payload : response.data ? response.data : [],
+                })
+                dispatch({
+                    type : ACTIONS.SET_LOADING,
+                    payload : false,
+                })
+            }
+            fetchTodoData();  
+        }, 3000);
     
     },[]);
     

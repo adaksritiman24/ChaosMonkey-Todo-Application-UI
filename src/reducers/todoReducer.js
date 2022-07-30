@@ -8,6 +8,9 @@ const todoReducer = (state, action) => {
             return {...state, isCreateTodoModalOpen : action.payload}  
         case ACTIONS.SET_TODOS:
             return {...state, todos: action.payload}      
+
+        case ACTIONS.SET_LOADING:
+            return {...state, loading: action.payload}    
         default:
             return state;
     }

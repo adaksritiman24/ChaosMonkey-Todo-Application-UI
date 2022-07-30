@@ -11,7 +11,7 @@ import {
   styled,
   Typography,
 } from "@mui/material";
-import { grey } from "@mui/material/colors";
+import { green, grey } from "@mui/material/colors";
 import { Box } from "@mui/system";
 import React from "react";
 
@@ -43,6 +43,7 @@ function Todo({todoDetails}) {
             height : "150px",
             maxHeight : "150px",
             overflow : "hidden",
+            backgroundColor : todoDetails.completed===1? green[50] : grey[0],
           }}
             
           >
@@ -80,8 +81,8 @@ function Todo({todoDetails}) {
             }}
           >
             <Stack spacing={1} direction="row">
-              <Button color="success" variant="contained" sx={buttonStyles}>Completed</Button>
-              <Button color="error" variant="outlined" sx={buttonStyles}>Incomplete</Button>
+              <Button color="success" variant={todoDetails.completed===1? "contained" : "outlined"} sx={buttonStyles}>Completed</Button>
+              <Button color="error" variant={todoDetails.completed===0? "contained" : "outlined"} sx={buttonStyles}>Incomplete</Button>
             </Stack>
             <Box>
               <IconButton>
