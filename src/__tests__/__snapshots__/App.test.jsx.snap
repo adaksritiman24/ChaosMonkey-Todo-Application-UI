@@ -4,7 +4,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
 <body>
   <div>
     <div
-      class="MuiGrid-root css-1gkooyx-MuiGrid-root"
+      class="MuiGrid-root css-3nu7wj-MuiGrid-root"
     >
       <div
         class="css-1p5q5e5-MuiStack-root"
@@ -55,12 +55,12 @@ exports[`Testing of App component Should match snapshot 1`] = `
             class="MuiBox-root css-0"
           >
             <div
-              class="MuiToggleButtonGroup-root css-11xnzgd-MuiToggleButtonGroup-root"
+              class="MuiToggleButtonGroup-root css-1e9i4it-MuiToggleButtonGroup-root"
               role="group"
             >
               <button
                 aria-pressed="true"
-                class="MuiButtonBase-root MuiToggleButton-root Mui-selected MuiToggleButton-sizeMedium MuiToggleButton-secondary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-ovja5t-MuiButtonBase-root-MuiToggleButton-root"
+                class="MuiButtonBase-root MuiToggleButton-root Mui-selected MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-1iudn88-MuiButtonBase-root-MuiToggleButton-root"
                 tabindex="0"
                 type="button"
                 value="all"
@@ -72,7 +72,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
               </button>
               <button
                 aria-pressed="false"
-                class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-secondary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-ovja5t-MuiButtonBase-root-MuiToggleButton-root"
+                class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-1iudn88-MuiButtonBase-root-MuiToggleButton-root"
                 tabindex="0"
                 type="button"
                 value="completed"
@@ -84,7 +84,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
               </button>
               <button
                 aria-pressed="false"
-                class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-secondary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-ovja5t-MuiButtonBase-root-MuiToggleButton-root"
+                class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-1iudn88-MuiButtonBase-root-MuiToggleButton-root"
                 tabindex="0"
                 type="button"
                 value="incomplete"
@@ -100,8 +100,104 @@ exports[`Testing of App component Should match snapshot 1`] = `
               class="MuiBox-root css-1jpm9pd"
             >
               <div
-                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
               >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1tesdz0"
+                  >
+                    <div
+                      class="css-1nva18r-MuiStack-root"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="width: 80%; height: 40px;"
+                      />
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="height: 95px;"
+                      />
+                      <div
+                        class="css-1y2jz8o-MuiStack-root"
+                      >
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1tesdz0"
+                  >
+                    <div
+                      class="css-1nva18r-MuiStack-root"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="width: 80%; height: 40px;"
+                      />
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="height: 95px;"
+                      />
+                      <div
+                        class="css-1y2jz8o-MuiStack-root"
+                      >
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1tesdz0"
+                  >
+                    <div
+                      class="css-1nva18r-MuiStack-root"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="width: 80%; height: 40px;"
+                      />
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-tqb5fd-MuiSkeleton-root"
+                        style="height: 95px;"
+                      />
+                      <div
+                        class="css-1y2jz8o-MuiStack-root"
+                      >
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                        <span
+                          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-flnd2e-MuiSkeleton-root"
+                          style="width: 90px; height: 35px;"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div
                   class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
                 >

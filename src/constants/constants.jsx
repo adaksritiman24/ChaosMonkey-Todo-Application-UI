@@ -7,6 +7,8 @@ export const SCOPE = {
 export const state = {
     scope : SCOPE.ALL,
     isCreateTodoModalOpen : false,
+    isUpdateTodoModalOpen : false,
+    updatingTodo : undefined,
     loading : true,
 }
 

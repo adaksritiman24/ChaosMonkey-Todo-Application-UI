@@ -1,4 +1,4 @@
-import { Box, Button, FormControl, Modal, Paper, Stack, styled, TextareaAutosize, TextField, Typography, useTheme } from '@mui/material'
+import { Box, Button, FormControl, Modal, Stack, styled, TextField, Typography, useTheme } from '@mui/material'
 import { grey } from '@mui/material/colors'
 import axios from 'axios'
 import React, { useContext } from 'react'
@@ -84,7 +84,7 @@ const CreateModal=()=> {
             <Typography id="create-modal-modal-title" variant="h5" component="h2">
                Create Todo
             </Typography>
-
+            <hr/>
             <form onSubmit={handleSubmit}>
                 <Stack spacing={2}>
                     <FormControl fullWidth>

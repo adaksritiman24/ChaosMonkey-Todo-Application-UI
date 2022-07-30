@@ -7,6 +7,7 @@ import { state , baseURI} from './constants/constants';
 import TodoContext from './contexts/TodoContext';
 import todoReducer from './reducers/todoReducer';
 import axios from "axios";
+import { grey } from '@mui/material/colors';
 
 const App = ()=> {
 
@@ -49,6 +50,7 @@ const App = ()=> {
                         [desktopView] : { margin : "0rem 8rem"},
                         [tabletView] : { margin : "0rem 3.5rem"},
                         [mobileView] : { margin : "0rem 0rem"},
+                    backgroundColor : grey[50],    
                 }}
             >
                 <Stack spacing={2}>

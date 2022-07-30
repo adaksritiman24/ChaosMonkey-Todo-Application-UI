@@ -17,6 +17,7 @@ import React,{useContext} from "react";
 import { ACTIONS } from "../constants/actions";
 import TodoContext from "../contexts/TodoContext";
 import updateTodo from "../utils/updateTodo";
+import UpdateTodoModal from "./UpdateTodoModal";
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
   height: "250px",
@@ -32,6 +33,17 @@ const buttonStyles = {
 function Todo({todoDetails}) {
 
   const {appState, dispatch} = useContext(TodoContext);
+
+  const openUpdateTodoModal = ()=>{
+    dispatch({
+      type : ACTIONS.SET_IS_UPDATE_TODO_MODAL_OPEN,
+      payload : true,
+    });
+    dispatch({
+      type : ACTIONS.SET_UPDATING_TODO,
+      payload : todoDetails,
+    });
+  }
 
   const setTodoStatus = async(completed)=> {
     const updatedTodo = {...todoDetails, completed};
@@ -119,7 +131,7 @@ function Todo({todoDetails}) {
               </Button>
             </Stack>
             <Box>
-              <IconButton>
+              <IconButton onClick={openUpdateTodoModal}>
                 <Edit/>
               </IconButton>
             </Box>

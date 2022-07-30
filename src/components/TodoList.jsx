@@ -27,7 +27,7 @@ function TodoList() {
    <Box
    py={1}
    >
-    <Grid  container spacing={1}>
+    <Grid  container spacing={2}>
        {appState.loading? <LoadingComponent/> : renderAllTodos(appState.todos? appState.todos :[], scope)}
     </Grid>
 
