@@ -5,6 +5,7 @@ import {
   CardActions,
   CardContent,
   Grid,
+  Grow,
   IconButton,
   Paper,
   Stack,
@@ -17,7 +18,6 @@ import React,{useContext} from "react";
 import { ACTIONS } from "../constants/actions";
 import TodoContext from "../contexts/TodoContext";
 import updateTodo from "../utils/updateTodo";
-import UpdateTodoModal from "./UpdateTodoModal";
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
   height: "250px",
@@ -64,80 +64,81 @@ function Todo({todoDetails}) {
 
   return (
     <Grid item lg={4} sm={6} xs={12}>
-      <StyledPaper elevation={2}>
-        <Card
-          sx={{
-            height: "100%",
-            
-          }}
-        >
-          <CardContent 
-          sx={{
-            height : "150px",
-            maxHeight : "150px",
-            overflow : "hidden",
-            backgroundColor : todoDetails.completed===1? green[50] : grey[0],
-          }}
-            
-          >
-            <Typography gutterBottom variant="h5" component="div"
-              sx={{
-                textOverflow : "ellipsis",
-                WebkitLineClamp: 2,
-                overflow: "hidden",
-                display: "-webkit-box",
-                WebkitBoxOrient: "vertical",
-
-              }}
-            >
-            {todoDetails.title}
-            </Typography>
-            <Typography
-               variant="body2" 
-               color="text.secondary"
-               sx={{
-                WebkitLineClamp: 4,
-                overflow: "hidden",
-                display: "-webkit-box",
-                WebkitBoxOrient: "vertical",
-               }}
-            >
-            {todoDetails.body}
-            </Typography>
-          </CardContent>
-
-          <CardActions
+      <Grow in={true}>
+        <StyledPaper elevation={2}>
+          <Card
             sx={{
-              height : "50px",
-              display : "flex",
-              justifyContent : "space-between",
+              height: "100%",
             }}
           >
-            <Stack spacing={1} direction="row">
-              <Button 
-              color="success" 
-              variant={todoDetails.completed===1? "contained" : "outlined"} 
-              sx={buttonStyles} 
-              onClick={()=>setTodoStatus(1)}>
-                Completed
-              </Button>
-              <Button 
-              color="error" 
-              variant={todoDetails.completed===0? 
-              "contained" : "outlined"} 
-              sx={buttonStyles}  
-              onClick={()=>setTodoStatus(0)}>
-                Incomplete
-              </Button>
-            </Stack>
-            <Box>
-              <IconButton onClick={openUpdateTodoModal}>
-                <Edit/>
-              </IconButton>
-            </Box>
-          </CardActions>
-        </Card>
-      </StyledPaper>
+            <CardContent 
+            sx={{
+              height : "150px",
+              maxHeight : "150px",
+              overflow : "hidden",
+              backgroundColor : todoDetails.completed===1? green[50] : grey[0],
+            }}
+              
+            >
+              <Typography gutterBottom variant="h5" component="div"
+                sx={{
+                  textOverflow : "ellipsis",
+                  WebkitLineClamp: 2,
+                  overflow: "hidden",
+                  display: "-webkit-box",
+                  WebkitBoxOrient: "vertical",
+
+                }}
+              >
+              {todoDetails.title}
+              </Typography>
+              <Typography
+                variant="body2" 
+                color="text.secondary"
+                sx={{
+                  WebkitLineClamp: 4,
+                  overflow: "hidden",
+                  display: "-webkit-box",
+                  WebkitBoxOrient: "vertical",
+                }}
+              >
+              {todoDetails.body}
+              </Typography>
+            </CardContent>
+
+            <CardActions
+              sx={{
+                height : "50px",
+                display : "flex",
+                justifyContent : "space-between",
+              }}
+            >
+              <Stack spacing={1} direction="row">
+                <Button 
+                color="success" 
+                variant={todoDetails.completed===1? "contained" : "outlined"} 
+                sx={buttonStyles} 
+                onClick={()=>setTodoStatus(1)}>
+                  Completed
+                </Button>
+                <Button 
+                color="error" 
+                variant={todoDetails.completed===0? 
+                "contained" : "outlined"} 
+                sx={buttonStyles}  
+                onClick={()=>setTodoStatus(0)}>
+                  Incomplete
+                </Button>
+              </Stack>
+              <Box>
+                <IconButton onClick={openUpdateTodoModal}>
+                  <Edit/>
+                </IconButton>
+              </Box>
+            </CardActions>
+          </Card>
+        </StyledPaper>
+      </Grow>
     </Grid>
   );
 }

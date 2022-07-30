@@ -1,5 +1,5 @@
 import { Box, ToggleButtonGroup, ToggleButton, useTheme, ThemeProvider, createTheme } from '@mui/material'
-import { grey, blue, purple } from '@mui/material/colors'
+import { grey, blue } from '@mui/material/colors'
 
 import React, { useContext } from 'react'
 import { ACTIONS } from '../constants/actions'
@@ -86,7 +86,9 @@ const Body=()=> {
                 </ToggleButtonGroup>
             </ThemeProvider>
             <hr/>
-            <UpdateTodoModal/>
+            {appState.isUpdateTodoModalOpen &&
+                <UpdateTodoModal/>
+             }
             <TodoList/>
         </Box>
     </Box>
