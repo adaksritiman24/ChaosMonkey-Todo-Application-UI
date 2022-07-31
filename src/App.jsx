@@ -13,9 +13,6 @@ const App = ()=> {
 
     const [appState, dispatch] = useReducer(todoReducer,state)
     const todoContextValue = {appState, dispatch};
-
-    console.log("App is rendering: ");
-    
     
     const theme = useTheme();
     const desktopView = theme.breakpoints.up("lg");
@@ -25,7 +22,6 @@ const App = ()=> {
     useEffect(() => {
         setTimeout(() => {
             const fetchTodoData = async()=>{
-                console.log("Fetching todos from database")
                 const response = await axios.get(baseURI+"/todo");
                 dispatch({
                     type : ACTIONS.SET_TODOS,

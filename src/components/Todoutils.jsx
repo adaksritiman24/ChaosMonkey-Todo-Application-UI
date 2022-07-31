@@ -12,7 +12,7 @@ const Todoutils =()=> {
     const tabletView = theme.breakpoints.up("md");
     const mobileView = theme.breakpoints.up("xs");
 
-    const {dispatch} = useContext(TodoContext);
+    const {appState, dispatch} = useContext(TodoContext);
 
     const handleCreateTodoModalOpen = ()=> {
         dispatch({
@@ -58,7 +58,7 @@ const Todoutils =()=> {
                 Create Todo
             </Typography>
         </Button>
-        <CreateModal/>
+        {appState.isCreateTodoModalOpen && <CreateModal/>}
     </Box>
   )
 }

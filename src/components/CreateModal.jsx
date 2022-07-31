@@ -93,6 +93,7 @@ const CreateModal=()=> {
                         label="Todo Title"
                         variant="filled"
                         name='title'
+                        data-testid="title"
                         />
                     </FormControl>
                     <FormControl fullWidth>
@@ -102,6 +103,7 @@ const CreateModal=()=> {
                         label = "Todo description"
                         rows={5}
                         name = "description"
+                        data-testid="body"
                         style={{
                             fontSize: "20px",
                             fontFamily : "arial",

@@ -21,8 +21,6 @@ function TodoList() {
   const {appState} = useContext(TodoContext);
   const scope = appState.scope;
 
-  console.log("Rendering TodoList...");
-
   return (
    <Box
    py={1}
