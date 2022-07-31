@@ -77,6 +77,7 @@ const UpdateTodoModal=()=> {
         onClose={handleModalClose}
         aria-labelledby="update-modal-modal-title"
         aria-describedby="update-modal-modal-description"
+        data-testid = "update-todo-modal"
     >
         <Box sx={{
             position : 'absolute',

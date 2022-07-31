@@ -1,5 +1,277 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Testing of App component Should dispalay the todos in TodoList 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiGrid-root css-3nu7wj-MuiGrid-root"
+    >
+      <div
+        class="css-1p5q5e5-MuiStack-root"
+      >
+        <div
+          class="MuiBox-root css-1rxdjlo"
+        >
+          <h1
+            class="MuiTypography-root MuiTypography-body1 css-67bd63-MuiTypography-root"
+          >
+            Todo Application
+          </h1>
+          <div
+            class="MuiBox-root css-70qvj9"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1bpvkio-MuiButtonBase-root-MuiButton-root"
+              data-testid="todo-create-button"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-elhp89-MuiSvgIcon-root"
+                data-testid="ListAltIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 5v14H5V5h14m1.1-2H3.9c-.5 0-.9.4-.9.9v16.2c0 .4.4.9.9.9h16.2c.4 0 .9-.5.9-.9V3.9c0-.5-.5-.9-.9-.9zM11 7h6v2h-6V7zm0 4h6v2h-6v-2zm0 4h6v2h-6zM7 7h2v2H7zm0 4h2v2H7zm0 4h2v2H7z"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k3ks9m-MuiTypography-root"
+              >
+                Create Todo
+              </p>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1spr8f0"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <div
+              class="MuiToggleButtonGroup-root css-1e9i4it-MuiToggleButtonGroup-root"
+              role="group"
+            >
+              <button
+                aria-pressed="true"
+                class="MuiButtonBase-root MuiToggleButton-root Mui-selected MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-1iudn88-MuiButtonBase-root-MuiToggleButton-root"
+                tabindex="0"
+                type="button"
+                value="all"
+              >
+                All
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-pressed="false"
+                class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-1iudn88-MuiButtonBase-root-MuiToggleButton-root"
+                tabindex="0"
+                type="button"
+                value="completed"
+              >
+                Completed
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-pressed="false"
+                class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-1iudn88-MuiButtonBase-root-MuiToggleButton-root"
+                tabindex="0"
+                type="button"
+                value="incomplete"
+              >
+                Incomplete
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <hr />
+            <div
+              class="MuiBox-root css-1jpm9pd"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
+                >
+                  <div
+                    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-1mzto2f-MuiPaper-root"
+                    style="opacity: 1; transform: none; transition: opacity 0ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 0ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+                  >
+                    <div
+                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-zwt9xa-MuiPaper-root-MuiCard-root"
+                      data-testid="todo-item-card"
+                    >
+                      <div
+                        class="MuiCardContent-root css-xxg32x-MuiCardContent-root"
+                      >
+                        <div
+                          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-r80n0a-MuiTypography-root"
+                        >
+                          Dummy Title
+                        </div>
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-3pr4ab-MuiTypography-root"
+                        >
+                          Dummy Body
+                        </p>
+                      </div>
+                      <div
+                        class="MuiCardActions-root MuiCardActions-spacing css-v9gbui-MuiCardActions-root"
+                      >
+                        <div
+                          class="css-w4z10b-MuiStack-root"
+                        >
+                          <button
+                            class="MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-yh0l3o-MuiButtonBase-root-MuiButton-root"
+                            tabindex="0"
+                            type="button"
+                          >
+                            Completed
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </button>
+                          <button
+                            class="MuiButton-root MuiButton-contained MuiButton-containedError MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1amz1tr-MuiButtonBase-root-MuiButton-root"
+                            tabindex="0"
+                            type="button"
+                          >
+                            Incomplete
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </button>
+                        </div>
+                        <div
+                          class="MuiBox-root css-0"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                              data-testid="EditIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1tppydz-MuiGrid-root"
+                >
+                  <div
+                    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-1mzto2f-MuiPaper-root"
+                    style="opacity: 1; transform: none; transition: opacity 0ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 0ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+                  >
+                    <div
+                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-zwt9xa-MuiPaper-root-MuiCard-root"
+                      data-testid="todo-item-card"
+                    >
+                      <div
+                        class="MuiCardContent-root css-1yy8f0-MuiCardContent-root"
+                      >
+                        <div
+                          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-r80n0a-MuiTypography-root"
+                        >
+                          Dummy Title 2
+                        </div>
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-3pr4ab-MuiTypography-root"
+                        >
+                          Dummy Body 2
+                        </p>
+                      </div>
+                      <div
+                        class="MuiCardActions-root MuiCardActions-spacing css-v9gbui-MuiCardActions-root"
+                      >
+                        <div
+                          class="css-w4z10b-MuiStack-root"
+                        >
+                          <button
+                            class="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-oy2sec-MuiButtonBase-root-MuiButton-root"
+                            tabindex="0"
+                            type="button"
+                          >
+                            Completed
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </button>
+                          <button
+                            class="MuiButton-root MuiButton-outlined MuiButton-outlinedError MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-1jypp04-MuiButtonBase-root-MuiButton-root"
+                            tabindex="0"
+                            type="button"
+                          >
+                            Incomplete
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </button>
+                        </div>
+                        <div
+                          class="MuiBox-root css-0"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                              data-testid="EditIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
 exports[`Testing of App component Should match snapshot 1`] = `
 <body>
   <div>
@@ -107,6 +379,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
+                    data-testid="loading-box"
                   >
                     <div
                       class="css-1nva18r-MuiStack-root"
@@ -139,6 +412,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
+                    data-testid="loading-box"
                   >
                     <div
                       class="css-1nva18r-MuiStack-root"
@@ -171,6 +445,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
+                    data-testid="loading-box"
                   >
                     <div
                       class="css-1nva18r-MuiStack-root"
@@ -203,6 +478,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
+                    data-testid="loading-box"
                   >
                     <div
                       class="css-1nva18r-MuiStack-root"
@@ -235,6 +511,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
+                    data-testid="loading-box"
                   >
                     <div
                       class="css-1nva18r-MuiStack-root"
@@ -267,6 +544,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
+                    data-testid="loading-box"
                   >
                     <div
                       class="css-1nva18r-MuiStack-root"
@@ -299,6 +577,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
+                    data-testid="loading-box"
                   >
                     <div
                       class="css-1nva18r-MuiStack-root"
@@ -331,6 +610,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
+                    data-testid="loading-box"
                   >
                     <div
                       class="css-1nva18r-MuiStack-root"
@@ -363,6 +643,7 @@ exports[`Testing of App component Should match snapshot 1`] = `
                 >
                   <div
                     class="MuiBox-root css-1tesdz0"
+                    data-testid="loading-box"
                   >
                     <div
                       class="css-1nva18r-MuiStack-root"

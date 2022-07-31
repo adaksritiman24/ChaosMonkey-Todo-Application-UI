@@ -70,6 +70,7 @@ function Todo({todoDetails}) {
             sx={{
               height: "100%",
             }}
+            data-testid="todo-item-card"
           >
             <CardContent 
             sx={{

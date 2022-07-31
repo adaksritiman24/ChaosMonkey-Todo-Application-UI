@@ -10,6 +10,7 @@ const LoadingItem = ()=>
                 sx={{
                     height : "250px"
                 }}
+                data-testid="loading-box"
             >   
             <Stack spacing={2} m={1} mt={2}>
                 <Skeleton variant='rectangular' height="40px" width="80%"  sx={{ borderRadius : "4px",}}/>
