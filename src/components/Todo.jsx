@@ -17,7 +17,7 @@ import { Box } from "@mui/system";
 import React,{useContext} from "react";
 import { ACTIONS } from "../constants/actions";
 import TodoContext from "../contexts/TodoContext";
-import updateTodo from "../utils/updateTodo";
+import {updateTodo} from "../utils/updateTodo";
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
   height: "250px",

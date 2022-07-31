@@ -1,7 +1,7 @@
 import axios from "axios";
 import { baseURI } from "../constants/constants";
 
-const updateTodo= async(newTodo)=>{
+export const updateTodo= async(newTodo)=>{
     const todoData = JSON.stringify({
         "title": newTodo.title,
         "body": newTodo.body,
@@ -20,5 +20,3 @@ const updateTodo= async(newTodo)=>{
     const {data} =await axios(config);
     return data;
 }
-
-export default updateTodo;

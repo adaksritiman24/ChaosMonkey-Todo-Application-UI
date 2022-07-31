@@ -4,8 +4,8 @@ import { grey } from '@mui/material/colors'
 import React, { useContext } from 'react'
 import { ACTIONS } from '../constants/actions'
 import TodoContext from '../contexts/TodoContext'
-import updateTodo from '../utils/updateTodo'
-import deleteTodo from '../utils/deleteTodo'
+import {updateTodo} from '../utils/updateTodo'
+import {deleteTodo} from '../utils/deleteTodo'
 
 const StyledTextField = styled(TextField)({
     fontFamily : "helvetica",

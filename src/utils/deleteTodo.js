@@ -1,7 +1,7 @@
 import axios from "axios";
 import { baseURI } from "../constants/constants"
 
-const deleteTodo = async(id)=> {
+export const deleteTodo = async(id)=> {
     const config = {
         method : "delete",
         url : baseURI + `/todo/${id}`,
@@ -11,5 +11,3 @@ const deleteTodo = async(id)=> {
     const {data} = await axios(config);
     return data.todoId;
 }
-
-export default deleteTodo;
